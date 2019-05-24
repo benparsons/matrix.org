@@ -2,12 +2,17 @@
 layout: project
 title: Dimension
 categories: projects other
+description: An alternative integrations manager for matrix clients
 author: Travis Ralston
-description: An alternative integrations manager for Riot
 maturity: Alpha
+language: TypeScript
+license: GPL3
+repo: https://github.com/turt2live/matrix-dimension
 ---
+
 # {{ page.title }}
+The integrations manager is what is responsible for giving users a way to add bridges, bots, and widgets to their rooms and account. Dimension can be self-hosted for private deployments or for those looking to replace the manager that comes with their client.
 
-The integrations manager in Riot is the piece that provides an easy way to add bots, bridges, widgets, and more to your room. Dimension replaces Riot's default manager, Modular, and offers the option of self-hosting your own integrations. Dimension offers a generic interface for custom solutions to be added and acts as the UI for configuring the various integrations you host.
+Learn more about Dimension on [GitHub](https://github.com/turt2live/matrix-dimension) or on the [project site](https://dimension.t2bot.io/).
 
-Learn more about Dimension on [Github](https://github.com/turt2live/matrix-dimension).
+Repository: <{{page.repo}}>

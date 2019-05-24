@@ -21,9 +21,9 @@ cd "$(dirname "$(dirname "${SELF}")")"
 
 SITE_BASE="$(pwd)"
 
-# grab and unpack the latest matrix-docs build from jenkins
+# grab and unpack the latest matrix-docs build from buildkite
 rm -rf assets.tar.gz assets
-wget 'https://matrix.org/jenkins/job/Docs/lastSuccessfulBuild/artifact/assets.tar.gz'
+scripts/fetch-buildkite-artifact matrix-dot-org matrix-doc assets.tar.gz
 tar -xzf assets.tar.gz
 
 # copy the swagger UI into place
@@ -43,13 +43,6 @@ ln -s ../../../spec/client_server/latest.json unstyled_docs/api/client-server/js
 # copy the unstyled docs and add the jekyll styling
 rm -rf content/docs
 cp -r unstyled_docs content/docs
-find "content/docs" -name '*.html' |
+find "content/docs" -name '*.html' -type f |
     xargs "./scripts/add-matrix-org-stylings.pl" "./jekyll/_includes"
-
-# run jekyll to generate the rest of the site.
-# This will generate stuff under ./jekyll/_site.
-./jekyll/generate.sh
-
-# ... and copy it into place
-cp -r jekyll/_site/{css,guides,howtos,projects} content/docs
 

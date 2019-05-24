@@ -1,14 +1,17 @@
 ---
-layout: project
+layout: projectimage
 title: matrix-email-bot
 categories: projects bot
 description: Posts links to emails in Matrix rooms. Ideal for newsletter distribution.
 author: Travis Ralston
-maturity: Early beta
+maturity: Beta
+language: JavaScript
+license: GPL-3.0-only
+repo: https://github.com/turt2live/matrix-email-bot
+room: "#email:t2bot.io"
+featured: "TRUE"
 ---
 
-# {{ page.title }}
+This is a matrix bot that can receive email and post it to a given room. Intended for newsletters, this is a great bot to reach all of your audiences.
 
-Uses [matrix-js-sdk](https://github.com/matrix-org/matrix-js-sdk) and [mailin](http://mailin.io/) to receive emails and post messages in chat. Ideal for having your newsletters also land in a chat room.
-
-The source can be found on [GitHub](https://github.com/turt2live/matrix-email-bot).
+The source, and more information can be found on [GitHub](https://github.com/turt2live/matrix-email-bot). Try it out on [t2bot.io](https://t2bot.io/emailbot).

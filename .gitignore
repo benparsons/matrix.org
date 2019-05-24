@@ -1,22 +1,19 @@
-/.matrix-doc
 /assets
 /assets.tar.gz
 /console/download/cache/
 /content/docs
 /content.tar.gz
 /env
+/jekyll/_site/
+/jekyll/.sass-cache/
+/gatsby/.cache
+/gatsby/node_modules
+/gatsby/public/static
+# created when generating project .md files automatically
+/projects-gen/
 /unstyled_docs/api
 /unstyled_docs/howtos/client-server.html
 /unstyled_docs/spec/appendices.html
-/unstyled_docs/spec/intro.html
 /unstyled_docs/spec/*/unstable.html
-/jekyll/_site/
-/jekyll/.sass-cache/
-/packages/debian/db/
-/packages/debian/pool/
-/packages/debian/dists/
-/packages/npm/
 
-# undocumented crap which is sitting on the production server. Is any of it
-# needed? it needs documenting and/or cleaning up.
-/blog/
+/node_modules

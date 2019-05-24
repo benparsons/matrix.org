@@ -1,13 +1,16 @@
 ---
-layout: project
+layout: projectimage
 title: tiny-matrix-bot
 categories: projects bot
 description: Bot with plugins
 author: Ander Punnar
 maturity: Alpha
+language: Shell/Python
+license: Unknown
+repo: https://github.com/4nd3r/tiny-matrix-bot
+featured: "TRUE"
 ---
 
-# {{ page.title }}
 Simple and dirty matrix.org bot based on matrix-python-sdk
 
 <del>no manual</del>, no support, no warranty

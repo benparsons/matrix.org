@@ -1,11 +1,14 @@
 ---
-layout: project
+layout: projectimage
 title: Matrix::Client
 categories: projects sdk
-author: matiaslina
 description: Perl6 Matrix client SDK
+author: matiaslina
 maturity: Alpha
+language: Perl
+license: Artistic2
+repo: https://github.com/matiaslina/perl6-matrix-client
+featured: "TRUE"
 ---
 
-# {{ page.title }}
 Perl6 Matrix client. [github](https://github.com/matiaslina/perl6-matrix-client)

@@ -5,6 +5,7 @@ categories: projects client
 thumbnail: /docs/projects/images/matrix-console-android-2016-02-16-cropped.png
 description: A neutral Android client showcasing Matrix capabilities and implementation.
 author: Matrix.org team
+language: Java
 maturity: No longer maintained
 ---
 
@@ -19,4 +20,4 @@ The code can be retrieved from [github](https://github.com/matrix-org/matrix-and
 
 Also available from the [Google Play store](https://play.google.com/store/apps/details?id=org.matrix.androidsdk.alpha).
 
-Folks wanting to live on the bleeding edge can also pull APKs of the develop (and master) branches straight out of the [Jenkins build server](http://matrix.org/jenkins/job/AndroidConsoleDevelop/).
+Folks wanting to live on the bleeding edge can also pull APKs of the develop (and master) branches straight out of the [Jenkins build server](https://matrix.org/jenkins/job/AndroidConsoleDevelop/).
